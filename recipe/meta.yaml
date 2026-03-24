@@ -1,13 +1,13 @@
 {% set name = "topometry" %}
-{% set version = "0.2.1.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/topometry-{{ version }}.tar.gz
-  sha256: 2749f0aeaf595d8b372f591ad2327c276fdac67f0ffecad4945b0e39e90895af
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/topometry-{{ version }}.tar.gz
+  sha256: 73b16ffc9939794a56cfb06ad4c8657424c6a4237c6b0ea6c0b4c35e48c3da27
 
 build:
   noarch: python
